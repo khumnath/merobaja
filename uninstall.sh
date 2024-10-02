@@ -27,6 +27,7 @@ if [ "$DOIT" = true ]; then
   echo "removing installed files ......."
    sudo rm -rf  /Library/Audio/Plug-Ins/Components/merobaja.component
    sudo rm -rf  /Library/Audio/Plug-Ins/Components/merobaja.instruments
-   
+   sudo rm -rf /Library/Audio/Plug-Ins/VST/merobaja.vst3
+   sudo rm -rf /Library/Audio/Plug-Ins/VST/merobaja.instruments
 echo "plugin uninstalled!! have a nice day!!" 
 fi

@@ -8,12 +8,8 @@ echo "installing mac audio plugin....."
    sudo cp -r "mac/merobaja.instruments"* "/Library/Audio/Plug-Ins/Components"
    echo "Installed AU plugin! contact for license key!!"
 if [[ $answer == 2 ]]; then
-echo "installing vst3....."
-   sudo cp -r "mac/merobaja.vst3"* "/Library/Audio/Plug-Ins/VST"
-   sudo cp -r "mac/merobaja.instruments"* "/Library/Audio/Plug-Ins/VST"
-echo "Installed vst3 plugin! contact for license key!!"
-else
-    echo "good bye!!"
+echo "Not available at moment....."
+echo "good bye!!"
 sleep 3
 clear && printf '\e[3J'
 fi

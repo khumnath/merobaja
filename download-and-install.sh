@@ -30,9 +30,6 @@ cd merobaja
 echo "installing AU plugin..."
    sudo cp -r "mac/merobaja.component"* "/Library/Audio/Plug-Ins/Components"
    sudo cp -r "mac/merobaja.instruments"* "/Library/Audio/Plug-Ins/Components"
-echo "installing vst3 plugin..." 
-   sudo cp -r "mac/merobaja.vst3"* "/Library/Audio/Plug-Ins/VST"
-   sudo cp -r "mac/merobaja.instruments"* "/Library/Audio/Plug-Ins/VST"
 echo "plugin installed!! now ask us for activation key" 
 cd ..
 echo "cleaning...." 
